@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../css/Form_style.css" />
+	<link rel="favicon" href="../icons/favicon.ico" />
+	<link rel="stylesheet" href="../css/frameworks/bootstrap.min.css" />
+	<link rel="stylesheet" href="../css/frameworks/all.min.css" />
+	<link rel="stylesheet" href="../css/login.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+	<title>login</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="logo">
+
+			
+			<img src="../images/admin-logo.jpg" alt="" />
+
+		</div>
+		<div class="text-center mt-4 name">Giriş Yap</div>
+		<form class="p-3 mt-3">
+			<div class="form-field d-flex align-items-center">
+				<span class="far fa-user"></span>
+				<input type="text" name="userName" id="userName" placeholder="Kullancı Adı" required />
+			</div>
+			<div class="form-field d-flex align-items-center">
+				<span class="fas fa-key"></span>
+				<input type="password" name="password" id="userPass" id="exampleInputPassword1" placeholder="Şifre"
+					required />
+			</div>
+			<div class="form-check">
+				<input type="checkbox" name="chack" class="form-check-input" id="remmberMe" />
+				<label class="form-check-label text-muted" for="remmberMe">Beni Hatırla</label>
+			</div>
+			<input class="btn mt-3" type="button" name="submit" value="Giriş" class="btn btn-primary" id="button" />
+		</form>
+	</div>
+	<script src="../js/login.js" type="module"></script>
+	<script src="../js/frameworks/bootstrap.bundle.js.map"></script>
+	<script src="../js/frameworks/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+.form-border{
+	width: 30% !important;
+	min-width: 300px !important;
+	padding: 20px;
+	border: 1px solid #dcdddf;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+.login-header{
+	display: block;
+	width: 100%;
+	color: rgb(32,33,36);
+    font-size: 24px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.3333;
+	margin: 10px auto ;
+	text-align: center;
+}
+.form-div{
+	width: 90% !important;
+	min-width: 250px;
+}
+.form-title{
+	margin: 20px auto ;
+}
+.form-group{
+	margin-bottom: 25px !important;
+}
+
+.form-check{
+	margin-bottom: 10px !important;
+}
+
+.form-control{
+	box-shadow: none !important;
+}

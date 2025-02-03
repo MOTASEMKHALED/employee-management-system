@@ -1,0 +1,47 @@
+[
+    {
+        "F_name": "jamla",
+        "L_name": "mlkd",
+        "userName": "e1234567890",
+        "passwrd": "2f8a039abe4f35d7d3ad374241f13022",
+        "img": "..\/images\/admin-logo.jpg",
+        "rules": "ferf",
+        "email": "",
+        "PhoneNumber": 34,
+        "WorkTotal": null,
+        "salry": null,
+        "section": "",
+        "userStatus": "kdlad",
+        "gender": "male"
+    },
+    {
+        "F_name": "motasem",
+        "L_name": "khlaid",
+        "userName": "e8018325170",
+        "passwrd": "1f82efea34acf4b20a910900a06f0b6e",
+        "img": "..\/images\/admin-logo.jpg",
+        "rules": "wtet",
+        "email": "",
+        "PhoneNumber": 345,
+        "WorkTotal": null,
+        "salry": null,
+        "section": "",
+        "userStatus": "gre",
+        "gender": "male"
+    },
+    {
+        "F_name": "mohammed",
+        "L_name": "abo alhuda",
+        "userName": "e2387127421",
+        "passwrd": "acfa6c72bbef5c2e7bb8774c0a20aed5",
+        "img": "..\/images\/admin-logo.jpg",
+        "rules": "jamal",
+        "email": "",
+        "PhoneNumber": 2147483647,
+        "WorkTotal": null,
+        "salry": null,
+        "section": "",
+        "userStatus": "active",
+        "gender": "male"
+    }
+]

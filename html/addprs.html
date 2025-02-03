@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/addprs.css"/>
+  <link rel="favicon" href="../icons/favicon.ico" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <title>Personel Ekleme</title>
+</head>
+
+<body>
+  <!--Menu-->
+  <div class="menu" id="menu"></div>
+
+  <div class="conteiner">
+    <!--Search input-->
+    <form method="POST"  id="employeeForm" class="container register">
+    
+      <div class="row">
+
+        <div class="col-md-3 register-left">
+          <img  id="image-preview" alt="Image Preview" />
+          <input type="file" id="image-input" accept="image/*"/><br/>
+        </div>
+        
+        <div class="col-md-9 register-right">
+      
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <h3 class="register-heading">Yeni Personel Kaydı</h3>
+              <div class="row register-form">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" name="F_name" id="ad" class="form-control" placeholder="Ad *"/>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" name="L_name" id="soyad" class="form-control" placeholder="Soyad*"/>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="passwrd" id="sifre" class="form-control" placeholder="şifre *"/>
+                  </div>
+                  <div class="form-group">
+                    <input type="text"  name="userName" id="KullanciAd" class="form-control" placeholder=" Kullanci Ad" maxlength="11"/>
+                  </div>
+                  <div class="form-group">
+                    <div class="maxl">
+                      <label class="radio inline">
+                        <input type="radio" name="gender" value="male" />
+                        <span>Erkek</span>
+                      </label>
+                      <label class="radio inline">
+                         <input type="radio" name="gender" value="female" />
+                        <span>Kız</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" id="mail"  name="userStatus" class="form-control" placeholder="Kullanci Durumu"/>
+                  </div>
+                  <div class="form-group">
+                    <input id="text" type="text" name="PhoneNumber" class="form-control" placeholder="Telefon No *"/>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" id="yas" name="rules" class="form-control" placeholder="Meslek" />
+                  </div>
+                  <div class="form-group">
+                    <input id="rol" name="salry" type="text" class="form-control" placeholder="maas"  />
+                  </div>
+                  <input id="submit" type="button" class="btnRegister" value="Kaydet" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+  <script src="bootstrap-5.3.2-dist/css/bootstrap.min.css"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js" type="module"></script>
+  
+</body>
+</html>
